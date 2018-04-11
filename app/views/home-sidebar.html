@@ -1,0 +1,9 @@
+<div class="card sidebar" ng-repeat="listItem in homeSideBar.list">
+    <h6 class="card-header text-white card-defualt no-margin">{{listItem.title}}</h6>
+    <ul>
+        <li ng-repeat="item in listItem.list"><a href="#">{{item.name}}</a></li>
+    </ul>
+    <div align="right">
+        <button type="button" class="btn btn-sm btn-primary">view</button>
+    </div>
+</div>

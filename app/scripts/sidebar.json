@@ -1,0 +1,109 @@
+{
+    "id": 1,
+    "title": "All Type of Jobs",
+    "categories": [
+        {
+            "id": 1,
+            "name": "All india government jobs",
+            "link": "mail.all",
+            "subCategories": []
+        },
+        {
+            "id": 2,
+            "name": "All state government jobs",
+            "link": "main.state",
+            "subCategories": []
+        },
+        {
+            "id": 3,
+            "name": "Bank jobs",
+            "link": "main.bank",
+            "subCategories": []
+        },
+        {
+            "id": 4,
+            "name": "Teaching jobs",
+            "link": "main.teaching",
+            "subCategories": []
+        },
+        {
+            "id": 5,
+            "name": "Police/Defence jobs",
+            "link": "mail.police",
+            "subCategories": []
+        },
+        {
+            "id": 6,
+            "name": "Medical jobs",
+            "link": "mail.medical",
+            "subCategories": []
+        },
+        {
+            "id": 7,
+            "name": "12th pass goverment jobs\r\n",
+            "link": "mail.12th",
+            "subCategories": []
+        },
+        {
+            "id": 8,
+            "name": "10th pass goverment jobs\r\n",
+            "link": "mail.10th",
+            "subCategories": []
+        }
+    ]
+}
+
+
+vm.list = [
+    {
+      title: 'All type jobs',
+      list: [
+        {
+          name: 'All india goverment jobs',
+          link: 'allgov'
+        }, {
+          name: 'All state goverment jobs',
+          link: 'allstate'
+        }, {
+          name: 'Bank jobs',
+          link: 'bank'
+        }, {
+          name: 'Teaching jobs',
+          link: 'teaching'
+        }, {
+          name: 'Railway jobs',
+          link: 'raillway'
+        }, {
+          name: 'Police/Defence jobs',
+          link: 'police'
+        }, {
+          name: 'Medical jobs',
+          link: 'medical'
+        }, {
+          name: '12th pass goverment jobs',
+          link: '12pass'
+        }, {
+          name: '10th pass goverment jobs',
+          link: '10pass'
+        }
+      ]
+    },
+    {
+      title: 'Important',
+      list: [
+        {
+          name: 'Eligibility',
+          link: 'eligibility'
+        }, {
+          name: 'Syllabus',
+          link: 'syllabus'
+        }, {
+          name: 'Exam Pattern',
+          link: 'examPattern'
+        }, {
+          name: 'Previous Paper',
+          link: 'previousPaper'
+        }
+      ]
+    }
+  ];

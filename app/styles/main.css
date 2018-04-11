@@ -1,0 +1,112 @@
+.row{
+  margin-left: 0px;
+  margin-right:0px;
+}
+
+ul {
+  list-style-type: none;
+}
+ a{
+  color:black;
+
+}
+.bg-primary{
+
+  background-color: #ff5500;
+}
+ul li a{
+
+  color:white;
+  
+}
+a:hover { 
+  color: #00A7FF;
+}
+.nav-item{
+
+  padding-right:5px;
+}
+.lastnav{
+
+  padding-right:12px;
+}
+.btnsize1{
+
+  margin:3px;
+  width:48%;
+}
+.card-defualt{
+
+  background-color:#13897C;
+
+  color:white;
+}
+.btn-default{
+  background-color:#13897C;
+  color:white;
+}
+.dropdown-item{
+  padding-bottom:0px;
+  padding-top:0px;
+}
+
+.sectionbottom button{
+width:173px;
+font-size: 14px;
+font-weight: 500;
+color:#202036;
+margin :1px;
+}
+.sectionbottom {
+ padding:8px;
+  margin:8px;
+  }
+.btnsize{
+margin-bottom: 5px;
+width:19%;
+margin-left:4px;
+background-color: #E99595;
+color:black;
+}
+.foot{
+  background-color:#055D53; 
+ 
+}
+.footicon ul li{
+
+  display: inline;
+  padding:5px;
+  size: 19px;
+}
+
+.sidebar{
+  font-size:14px;
+}
+
+.sidebar ul{
+  padding-left: 25px;
+  padding-right: 5px;
+  list-style-type:square;
+}
+
+.sidebar ul li{
+  padding-bottom:10px;
+}
+.sidebar ul li a{
+  color:black;
+}
+
+.sidebar div button{
+  margin:3px;
+}
+
+
+.dropdown-item {
+  font-size: 14px;
+  font-weight: 500;
+  color:#202036
+}
+center{
+font-size:13px;
+color:white;
+}

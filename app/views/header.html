@@ -1,0 +1,80 @@
+<div class="fluid-container">
+    <div class="">
+        <div class="col-md-12">
+            <div class="col-md-3">
+                <h2>EasyGJobSearch</h2>
+            </div>
+            <div class="col-md-9">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="fluid-container">
+    <div class="">
+
+        <div class="col-md-12">
+
+            <nav class="navbar navbar" style="background-color:#055D53">
+                <!-- Links -->
+                <ul class="navbar-nav back ">
+
+                    <li class="nav-item" ng-class="{'dropdown':menu.subMenu}" ng-repeat="menu in header.menuBar.menu">
+                        <a class="nav-link" href="#" id="{{'navbardrop'+$index}}" ng-class="{'dropdown-toggle':menu.subMenu}" data-toggle="dropdown"
+                            ui-sref="{{menu.link}}">{{menu.name}}</a>
+                        <div ng-if="menu.subMenu" class="dropdown-menu">
+                            <a class="dropdown-item" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="{{subMenu.link}}">{{subMenu.name}}</a>
+                        </div>
+                    </li>
+                    <!-- Dropdown -->
+                    <!--li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
+                                    Jobs
+                                  </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">All India goverment jobs</a>
+                            <a class="dropdown-item" href="#">All State Government  JObs</a>
+                            <a class="dropdown-item" href="#">Bank Jobs</a>
+                            <a class="dropdown-item" href="#">Teaching Jobs</a>
+                            <a class="dropdown-item" href="#">Engineering Jobs</a>
+                            <a class="dropdown-item" href="#">Railway Jobs</a>
+                            <a class="dropdown-item" href="#">Police/Defence Jobs</a>
+                            <a class="dropdown-item" href="#">Medical Jobs</a>
+                            <a class="dropdown-item" href="#">12th Pass Govt Jobs</a>
+                            <a class="dropdown-item" href="#">10th Pass Govt Jobs</a>
+
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Exam Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admit Card</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Exam Date</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Syllabus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Study Material</a>
+                    </li-->
+
+                </ul>
+                <form class="form-inline" style="margin-top:-16px">
+                    <input class="form-control" type="text" placeholder="Search">
+                    <button class="btn btn-default" type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="col-md-12" style="height:80px">
+
+    </div>
+</div>

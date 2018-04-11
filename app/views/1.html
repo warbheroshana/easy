@@ -1,0 +1,39 @@
+<li class="nav-item ng-scope dropdown" ng-class="{'dropdown':menu.subMenu}" ng-repeat="menu in header.menuBar.menu">
+    <a class="nav-link ng-binding dropdown-toggle" href="#" id="10" ng-class="{'dropdown-toggle':menu.subMenu}" data-hover="dropdown"
+        ui-sref="#">All jobs</a>
+    <!-- ngIf: menu.subMenu -->
+    <div ng-if="menu.subMenu" class="dropdown-menu ng-scope">
+        <!-- ngRepeat: subMenu in menu.subMenus --><a class="dropdown-item ng-binding ng-scope" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="subMenu.link">All India goverment jobs</a>
+        <!-- end ngRepeat: subMenu in menu.subMenus --><a class="dropdown-item ng-binding ng-scope" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="subMenu.link">All State goverment jobs</a>
+        <!-- end ngRepeat: subMenu in menu.subMenus --><a class="dropdown-item ng-binding ng-scope" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="subMenu.link">Bank Jobs</a>
+        <!-- end ngRepeat: subMenu in menu.subMenus --><a class="dropdown-item ng-binding ng-scope" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="subMenu.link">Teaching Jobs</a>
+        <!-- end ngRepeat: subMenu in menu.subMenus --><a class="dropdown-item ng-binding ng-scope" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="subMenu.link">Engineering Jobs</a>
+        <!-- end ngRepeat: subMenu in menu.subMenus --><a class="dropdown-item ng-binding ng-scope" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="subMenu.link">Railway Jobs</a>
+        <!-- end ngRepeat: subMenu in menu.subMenus --><a class="dropdown-item ng-binding ng-scope" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="subMenu.link">Police/Defence Jobs</a>
+        <!-- end ngRepeat: subMenu in menu.subMenus --><a class="dropdown-item ng-binding ng-scope" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="subMenu.link">Medical Jobs</a>
+        <!-- end ngRepeat: subMenu in menu.subMenus --><a class="dropdown-item ng-binding ng-scope" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="subMenu.link">12th Pass Govt Jobs</a>
+        <!-- end ngRepeat: subMenu in menu.subMenus --><a class="dropdown-item ng-binding ng-scope" href="#" ng-repeat="subMenu in menu.subMenus" ui-sref="subMenu.link">10th Pass Govt Jobs</a>
+        <!-- end ngRepeat: subMenu in menu.subMenus -->
+    </div>
+    <!-- end ngIf: menu.subMenu -->
+</li>
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link " href="#" id="navbardrop" data-toggle="dropdown">
+            Jobs
+          </a>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">All India goverment jobs</a>
+        <a class="dropdown-item" href="#">All State Government  JObs</a>
+        <a class="dropdown-item" href="#">Bank Jobs</a>
+        <a class="dropdown-item" href="#">Teaching Jobs</a>
+        <a class="dropdown-item" href="#">Engineering Jobs</a>
+        <a class="dropdown-item" href="#">Railway Jobs</a>
+        <a class="dropdown-item" href="#">Police/Defence Jobs</a>
+        <a class="dropdown-item" href="#">Medical Jobs</a>
+        <a class="dropdown-item" href="#">12th Pass Govt Jobs</a>
+        <a class="dropdown-item" href="#">10th Pass Govt Jobs</a>
+
+    </div>
+</li>

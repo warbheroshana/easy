@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="card">
+        <div class="col-md-12" style="border:1px solid gray;">
+            <button type="button" ng-click="allstate.scrollTo(state.link)" target="_self" ng-repeat="state in allstate.state" class="btn btn-success btnsize"-->{{state.name}}</button>
+        </div>
+    </div>
+</div>
+<div class="col-md-9">
+    <section id="{{job.link}}" ng-repeat="job in allstate.jobs">
+        <h4 style="color:black">{{job.title}}</h4>
+        <table border="2" cellpadding="2" style="color:#000000; border: 2px solid #386835;border-collapse: collapse; max-width:790px;">
+            <thead>
+                <tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+                    <th ng-repeat="header in job.header">{{header}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="data in job.data" >
+                    <th>{{data.postDate}}</th>
+                    <th style="width:16%;">{{data.bankName}}</th>
+                    <th>{{data.postName}}</th>
+                    <th>{{data.qualification}}</th>
+                    <th>{{data.lastDate}}</th>
+                    <th>{{data.moreInfo}}</th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</div>

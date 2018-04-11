@@ -1,0 +1,90 @@
+{
+	menu: [
+        {
+			name:'Home',
+			link:'main.home',
+			subMenu: false,
+			subMenus: null,
+        },
+        {
+		 name:'All jobs',
+		 link:'main.alljobs',
+		 subMenu: true,
+		 subMenus: [
+                {
+				name:'All India goverment jobs',
+				link:main.allIndiagovermentjobs,
+                },
+                {
+				name:'All State goverment jobs',
+				link:main.allStategovermentjobs,
+                },
+                {
+				name:'Bank Jobs',
+				link:main.bankJobs,
+                },
+                {
+				name:'Teaching Jobs',
+				link:main.teachingJobs,
+                },
+                {
+				name:'Engineering Jobs',
+				link:main.engineeringJobs,
+                },
+                {
+				name:'Railway Jobs',
+				link:main.railwayJobs,
+                },
+                {
+				name:'Police/Defence Jobs',
+				link:main.police/defenceJobs,
+                },
+                {
+				name:'Medical Jobs',
+				link:main.medicalJobs,
+                },
+                {
+				name:'12th Pass Govt Jobs',
+				link:main.12thPassGovtJobs,
+                },
+                {
+				name:'10th Pass Govt Jobs',
+				link:main.10th Pass Govt Jobs,
+                },
+            ],
+        },
+        {
+			name:'Exam Results',
+			link:'main.examresults',
+			subMenu: false,
+			subMenus: null,
+        },
+        {
+			name:'Admit Card',
+			link:'main.admitcard',
+			subMenu: false,
+			subMenus: null,
+        },
+        {
+		 name:'Exam Date',
+		 link:'main.examdate,'
+		 subMenu: false,
+		 subMenus: null,
+        },
+        {
+			name:'Syllabus',
+			link:'main.syllabus',
+			subMenu: false,
+			subMenus: null,
+        },
+        {
+			name:'Study Material',
+			link:'main.studymaterial',
+			subMenu: false,
+			subMenus: null,
+        },
+    ]
+}
+
+
+

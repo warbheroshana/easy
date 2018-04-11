@@ -1,0 +1,9 @@
+<div class="card" ng-repeat="listItem in $ctrl.list">
+    <h6 class="card-header text-white card-defualt no-margin"> {{ listItem.title}}</h6>
+    <div class="asiteleft">
+        <div ng-repeat="list in listItem.categories">
+            <a class="dropdown-item" ui-sref="{{list.link}}">{{list.name}}</a>
+            <div ng-if="!$last" class="dropdown-divider"></div>
+        </div>
+    </div>
+</div>      
