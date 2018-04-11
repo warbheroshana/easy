@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="card">
+        <div class="col-md-12" style="border:1px solid gray;">
+            <button type="button" ng-click="job.scrollTo(subCategory.link)" target="_self" ng-repeat="subCategory in job.category.subCategories"
+                class="btn btn-danger btnsize" -->{{subCategory.name}}</button>
+        </div>
+    </div>
+</div>
+<div class="col-md-9">
+    <section id="{{subCategory.link}}" ng-repeat="subCategory in job.category.subCategories">
+        <h4 style="color:black">{{subCategory.name}}</h4>
+        <table border="2" cellpadding="2" style="color:#000000; border: 2px solid #386835;max-width:790px;">
+            <thead>
+                <tr style="border: 1px solid #000000; background-color:#0BCEB7">
+                    <th> Post Date</th>
+                    <th> Board Name</th>
+                    <th> Post Name</th>
+                    <th> Qualification</th>
+                    <th> Last Date</th>
+                    <th> More Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="data in subCategory.jobs">
+                    <td>{{data.postDate}}</td>
+                    <td style="width:16%;">{{data.boardName}}</td>
+                    <td>{{data.postName}}</td>
+                    <td>{{data.qualification}}</td>
+                    <td>{{data.lastDate}}</td>
+                    <td>{{data.moreInfo}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</div>

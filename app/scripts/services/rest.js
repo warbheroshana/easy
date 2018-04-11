@@ -24,16 +24,9 @@
 			return {	
 				menu: $resource(urlBase + '/menu/:id'),
 				sidebar: $resource(urlBase + '/sidebar/:id'),
-				browse: $resource(urlBase + '/samaj/filter'),
-				browseAll: $resource(urlBase + '/samaj/all'),
-				changePassword: $resource(urlBase + '/samaj/changePassword'),
-				profile: $resource(urlBase + '/samaj/profile/:id',{},{
-					update:{
-						method:'PUT'
-					}
-				}),
-				document: $resource(urlBase + '/samaj/document/:id'),
-				registerDocument: $resource(urlBase + '/samaj/document')
+				jobs: $resource(urlBase + '/jobs/category/:categoryId'),
+				category: $resource(urlBase + '/category/:categoryId'),
+				subcategory: $resource(urlBase + '/category/:categoryId/subcategory')
             };
 		}]);
 })();

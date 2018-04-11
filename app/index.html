@@ -19,7 +19,7 @@
 </head>
 
 <body ng-app="easyJobSearchApp">
-  <!--[if lte IE 8]>
+  <!--[if lte IE 8]>  
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
@@ -30,7 +30,7 @@
     </div>
     <div class="row">
       <div class="col-md-3" style="padding-right:0px">
-        <side-bar hero="1"></side-bar>
+        <side-bar sidebar-id="1"></side-bar>
       </div>
       <div class="col-md-9" style="padding-left:0px;padding-right:0px">
         <div ui-view="container"></div>
@@ -81,11 +81,13 @@
   <script src="scripts/controllers/bank.js"></script>
   <script src="scripts/controllers/railway.js"></script>
   <script src="scripts/controllers/teacher.js"></script>
+  <script src="scripts/controllers/job.js"></script>
   <!--script src="scripts/controllers/police.js"></script-->
   <script src="scripts/controllers/home-sidebar.js"></script>
   <script src="scripts/controllers/allnoti.js"></script>
   <script src="scripts/controllers/allstate.js"></script>
-  <script src="scripts/services/rest.js"></script>
+  <script src="scripts/services/rest.js"></script> 
+  <script src="scripts/directives/rule-bottom-bar.js"></script>
   <script src="scripts/components/sidebar.js"></script>
   <!-- endbuild -->
 </body>

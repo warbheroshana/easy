@@ -62,6 +62,17 @@ angular.module('easyJobSearchApp', [
 
     })
 
+    .state('main.job', {
+      url: '/job/:categoryId',
+      views: {
+        'container@': {
+          templateUrl: 'views/job.html',
+          controller: 'JobCtrl',
+          controllerAs: 'job'
+        }
+      },
+    })
+
     .state('main.teaching', {
       url: '/teacher',
       views: {

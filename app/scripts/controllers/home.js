@@ -10,7 +10,9 @@
 angular.module('easyJobSearchApp')
   .controller('HomeCtrl', function () {
     var vm=this;
-
+    vm.idSet={
+      id:1
+    };
     vm.states = [
       {
         name: 'Andaman Nicobar',
